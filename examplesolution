@@ -1,0 +1,74 @@
+package Balamurugan;
+import java.util.*;
+
+public class sample {
+
+	public static void main(String[] args) {
+//	1. To find last digit of the number
+		int a = 1234;
+		System.out.println("last digit of the number: " + a%10);
+
+//  2. To remove last digit of the number
+		System.out.println("remove last digit of the number: " + a/10);
+		
+//  3. To find last 2 digit of the given number
+		System.out.println("last 2 digit of the given number: " + a%100);
+		
+//  4. Write a program to take a five-digit number as input, square the
+//     middle digit and print number and the square.
+//     input Data: 
+//     Input an integer: 54623
+//     Expected Output
+//     Square of 6 is: 36
+		int b = 54623;
+		b = (b%1000/100);
+		
+		System.out.println("Square of 6 is: " + b*b);
+//	5. Thara is attending maths lecture, her professor asks students to 
+//	   swap two number using a bitwise operator. The professor finds it
+//	   difficult to check the logic of 50 students. So, he decided to write
+//	   a java program to get two numbers first and second from the user and 
+//	   swap the numbers. He is not good at programming. Help them by 
+//	   developing an application using your java skills.
+		int c = 10;
+		int d = 40;
+		c = c^d;
+		d = c^d;
+		c = c^d;
+		System.out.println("swap two number of c: " + c);
+		System.out.println("swap two number of d: " + d);
+		
+//	6.	Star Fitness Club wants to calculate the Body Mass Index(BMI) for
+//		all its customers. Customers may enter their height and weight. Each
+//		customer should know their BMI Formula 
+//		BMI = weight / (height /100)^2 
+		Scanner sc = new Scanner(System.in);
+		int weight = sc.nextInt();
+		int height = sc.nextInt();
+		System.out.println("BMI: " + (weight/(height/100)^2));
+		
+//   7. Expand the number 
+//      Example: 12341000+200+30+4
+		int num1 = 12341234;
+		System.out.println((num1/1000*1000) +" " + (num1/100%10*100) +" "+ (num1/10%10*10) +" "+ (num1%10));
+		
+//   8. To calculate Volume of cylinder
+//		Formula: 3.14* Radius* Radius*height
+		int rad = 4;
+		int heg = 12;
+		System.out.println(3.14*rad*rad*heg);
+		
+//	 9. To calculate volume of cuboid
+//		Formula: Length * breadth * height
+		int Len = 10;
+		int bre = 4;
+		int heg1 = 8;
+		System.out.println(Len * bre * heg1);
+		
+//	10. Jerry checks his height in the 
+		
+		int jerry = 157;
+		System.out.println(jerry / 30.48);
+	}
+
+}
