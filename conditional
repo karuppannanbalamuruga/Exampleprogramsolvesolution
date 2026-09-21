@@ -1,0 +1,105 @@
+package balamurugan;
+
+import java.util.Scanner;
+
+public class conditional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		The correct or incorrect PIN
+		Scanner sc = new Scanner(System.in);
+//		int a = sc.nextInt();
+//		if(a == 1234)
+//		{
+//			System.out.println("Correct PIN");
+//		}
+//		else
+//		{
+//			System.out.println("InCorrect PIN");
+//		}
+
+//		1. if are same print square otherwise rectangle
+//		int lenght = sc.nextInt();
+//		int breath = sc.nextInt();
+//		if (lenght == breath)
+//		{
+//			System.out.println("Square");
+//		}
+//		else
+//		{
+//			System.out.println("Rectangle");
+//		}
+		
+//		2. Write a program to accept a number and check 
+//		if its square is above 50 or below 50.
+//		int a = sc.nextInt();
+//		if (a > 50)
+//		{
+//			System.out.println("Above 50");
+//		}
+//		else
+//		{
+//			System.out.println("Below 50");
+//		}
+		
+//		3. write a program to accept two numbers, subract
+//		the two number and check if the differnce (answer) is 0 or not
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		if (a-b == 0)
+//		{
+//			System.out.println("0");
+//		}
+//		else
+//		{
+//			System.out.println("Not");
+//		}
+				
+//	    4. The student has passed if marks is 50 or above otherwise failed.
+//		int a = sc.nextInt();
+//		if (a>=50)
+//		{
+//			System.out.println("Passed");
+//		}
+//		else
+//		{
+//			System.out.println("Failed");
+//		}
+		
+//		5. Write a program to accept a number and check if the number is divsible by 10.
+//		int a = sc.nextInt();
+//		if(a%10 == 0)
+//		{
+//			System.out.println("This number divisible by 10");
+//		}
+//		else
+//		{
+//			System.out.println("This number not divisible by 10");
+//		}
+		
+//		6. Write a program to take a two-digit number and print the biggest digit.
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		if (a>b)
+//		{
+//			System.out.println("a is Bigesst number:" + a);
+//		}
+//		else
+//		{
+//			System.out.println("b is Bigesst number:" + b);
+//		}
+//		7. Write a program to accept a value from the user. if the value entered is 1 the print
+//		"You can go out and play" otherwise "You cannot go out and play"
+//		int a = sc.nextInt();
+//		if(a == 1)
+//		{
+//			System.out.println("You can go out and play");
+//		}
+//		{
+//			System.out.println("You cannot go out and play");
+//		}
+
+	}
+
+}
