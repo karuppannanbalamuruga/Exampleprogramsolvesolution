@@ -1,4 +1,4 @@
-package balamurugan;
+package Balamurugan;
 
 import java.util.Scanner;
 
@@ -100,6 +100,170 @@ public class conditional {
 //			System.out.println("You cannot go out and play");
 //		}
 
+//		8. To basic calculation mathematical operation.
+//		int a = sc.nextInt();
+//		int b = sc.nextInt();
+//		char op = sc.next().charAt(0);
+//		
+//		if (op == '+')
+//		{
+//			System.out.println(a+b);
+//		}
+//		else if (op == '-')
+//		{
+//			System.out.println(a-b);
+//		}
+//		else if (op == '*')
+//		{
+//			System.out.println(a*b);
+//		}
+//		else if (op == '/')
+//		{
+//			System.out.println(a/b);
+//		}
+//		else
+//		{
+//			System.out.println("No Operation");
+//		}
+//		
+//		9.To input weight of the parcel and type of booking('O' for ordinary an 'E' for express).
+//		System.out.println("Enter the Weight: ");
+//		int a = sc.nextInt();
+//		System.out.println("Enter the type of booking: ");
+//		String op = sc.next();
+//		if (a <= 100)
+//		{
+//			System.out.println("Enter the type of booking: " + a);
+//			System.out.println("Enter the type of booking: " + op);
+//			if (op.equals("O"))
+//			{
+//				System.out.println("80 Rupees");
+//			}
+//			else if (op.equals("E"))
+//			{
+//				System.out.println("100 Rupees");
+//			}
+//		}
+//		else if (a >= 101 && a <= 500)
+//		{			
+//			if (op.equals("O"))
+//			{
+//				System.out.println("150 Rupees");
+//			}
+//			else if (op.equals("E"))
+//			{
+//				System.out.println("200 Rupees");
+//			}
+//		}
+//		else if (a >= 501 && a <= 1000)
+//		{			
+//			if (op.equals("O"))
+//			{
+//				System.out.println("210 Rupees");
+//			}
+//			else if (op.equals("E"))
+//			{
+//				System.out.println("250 Rupees");
+//			}
+//		}
+//		else
+//		{			
+//			if (op.equals("O"))
+//			{
+//				System.out.println("250 Rupees");
+//			}
+//			else if (op.equals("E"))
+//			{
+//				System.out.println("300 Rupees");
+//			}
+//		}
+		
+//		10. For the pruchase the laptop
+//		int a = sc.nextInt();
+//		if (a <= 50000)
+//		{
+//			System.out.println("Price of laptop: " + a);
+//			System.out.println("Discount: " + "No Discount");
+//			System.out.println("Total Price: " + a);
+//		}
+//		else if (a >= 50001 && a <= 100000)
+//		{
+//			System.out.println("Price of laptop: " + a);
+//			System.out.println("Discount: " + "10% on the list price");
+//			a = a - (a/10);
+//			System.out.println("Total Price: " + a);
+//		}
+//		else if (a >= 100001 && a <= 150000)
+//		{
+//			System.out.println("Price of laptop: " + a);
+//			System.out.println("Discount: " + "15% on the list price");
+//			a = a - (a/15);
+//			System.out.println("Total Price: " + a);
+//		}
+//		else if (a >= 50000)
+//		{
+//			System.out.println("Price of laptop: " + a);
+//			System.out.println("Discount: " + "20% on the list price");
+//			a = a - (a/20);
+//			System.out.println("Total Price: " + a);
+//		}
+//		
+//		11. A library charges
+//		float a = sc.nextInt();
+//		if (a >= 5)
+//		{
+//			a = a*0.40f;
+//			System.out.println(a);
+//		}
+//		else if (a >= 5)
+//		{
+//			a = a*0.65f;
+//			System.out.println(a);
+//		}
+//		else
+//		{
+//			a = a*0.80f;
+//			System.out.println(a);
+//		}
+//		12. Buzz number ends with 7 or is divisible by 7
+//		int num = sc.nextInt();
+//		 if (num % 7 == 0 || num % 10 == 7) 
+//		 {
+//			 System.out.println(num + " is a Buzz Number.");  
+//	     } 
+//		 else 
+//	     {
+//			 System.out.println(num + " is not a Buzz Number.");
+//	     }
+		
+//		12. Automorphic number
+//		int a = sc.nextInt();
+//		int b = a*a;
+//		int c = b%10;
+//		if (a == c)
+//		{
+//			System.out.println( b + "Automorphic number");
+//		}
+//		else
+//		{
+//			System.out.println("Not Automorphic number");
+//		}
+		
+//		13. if it is a captial letter or not
+		
+		char a = sc.next().charAt(0);
+		if (a <= 'Z' && a >= 'A')
+		{
+			System.out.println("Its a Captial Letter");
+		}
+		else if (a <= 'z' && a >= 'a')
+		{
+			System.out.println("Its not a Captial Letter");
+		}
+		else
+		{
+			System.out.println("Special Characters  or Numbers");
+		}
 	}
 
 }
