@@ -1,0 +1,225 @@
+package Balamurugan;
+import java.util.*;
+
+public class array {
+
+	public static void main(String[] args) {
+//		Array Programs
+//		1.Array Print in the output
+//		int a[] = {10, 20, 30, 40};
+//		for (int i=0; i<a.length; i++)
+//		{
+//			System.out.println(a[i]);
+//		}
+
+//		2.Array Runtime Input
+		Scanner sc = new Scanner(System.in);
+//		int n = sc.nextInt();
+//		int[] a = new int[n];
+//		for (int i=0; i<a.length; i++)
+//		{
+//			a[i] = sc.nextInt();
+//		}
+//		for (int i=0; i<a.length; i++)
+//		{
+//			System.out.println(a[i]);
+//		}
+		
+//		3. Minimum Values
+//		int a[] = {10, 20, 30, 40};
+//		int min = a[0];
+//		for (int i=1; i<a.length;i++)
+//		{
+//			if(min > a[i])
+//			{
+//				min=a[i];
+//			}
+//		}
+//		System.out.println(min);
+		
+//		4. Maximum Values
+//		int a[] = {10, 20, 30, 40};
+//		int max = a[0];
+//		for (int i=1; i<a.length;i++)
+//		{
+//			if(max < a[i])
+//			{
+//				max=a[i];
+//			}
+//		}
+//		System.out.println(max);
+		
+//		5. Ascending Order
+//		int a[] = {10, 20, 30, 40};
+//		for(int i=0; i<a.length; i++)
+//		{
+//			for(int j=i+1; j<a.length;j++)
+//			{
+//				if(a[i] > a[j])
+//				{
+//					int temp = a[i];
+//					a[i] = a[j];
+//					a[j] = temp;
+//				}
+//			}
+//		}
+//		for (int k=0;k<a.length;k++)
+//		{
+//			System.out.println(a[k]);
+//		}
+		
+//		6. Descending Order
+//		int a[] = {10, 20, 30, 40};
+//		for(int i=0; i<a.length; i++)
+//		{
+//			for(int j=i+1; j<a.length;j++)
+//			{
+//				if(a[i] < a[j])
+//				{
+//					int temp = a[i];
+//					a[i] = a[j];
+//					a[j] = temp;
+//				}
+//			}
+//		}
+//		for (int k=0;k<a.length;k++)
+//		{
+//			System.out.println(a[k]);
+//		}
+		
+//		7. Operation working to swtich case
+//		int x = 10;
+//		int y = 20;
+//		char a = sc.next().charAt(0);
+//
+//        switch (a) {
+//            case 1:
+//                a = '+';
+//                System.out.println(x+y);
+//                break;
+//            case 2:
+//                a = '-';
+//                System.out.println(x-y);
+//                break;
+//            case 3:
+//                a = '*';
+//                System.out.println(x*y);
+//                break;
+//            case 4:
+//                a = '/';
+//                System.out.println(x/y);
+//                break;
+//            default:
+//                System.out.println("Invalid Sybmol");
+//                break;
+//        }
+		
+//		8. Program - Largest, smallest and Sum of element - Single Dimensional array 	
+//		int n = sc.nextInt();
+//		int[] a = new int[n];
+//		for (int i=0; i<a.length; i++)
+//		{
+//			a[i] = sc.nextInt();
+//		}
+//		int min = a[0];
+//		int max = a[0];
+//		int sum = 0;
+//
+//		for (int i=1; i<a.length;i++)
+//		{
+//			if(min > a[i])
+//			{
+//				min=a[i];
+//			}
+//		}
+//		for (int i=1; i<a.length;i++)
+//		{
+//			if(max < a[i])
+//			{
+//				max=a[i];
+//			}
+//		}
+//		for (int i=1; i<a.length;i++)
+//		{
+//			if(max < a[i])
+//			{
+//				max=a[i];
+//			}
+//		}
+//		for (int i=1; i<a.length;i++)
+//		{
+//			sum = sum+a[i];
+//		}
+//		System.out.println("Smallest Element "+min);
+//		System.out.println("Largest Element "+max);
+//		System.out.println("Sum of the Element "+sum);
+		
+//		9.Program - Single Dimensional array. The maximum marks in the subject are 100 
+//		Average marks = Total Marks / 3
+//		int[] a = new int[3];
+//		int TotalMarks = 0;
+//		for (int i=0; i<a.length; i++)
+//		{
+//			a[i] = sc.nextInt();
+//		}
+//		for (int i=0; i<a.length;i++)
+//		{
+//			TotalMarks = TotalMarks+a[i];
+//		}
+//		System.out.println("Total Marks "+TotalMarks);
+//		int averageMarks = TotalMarks/3;
+//		System.out.println("Average Marks "+averageMarks);
+//		if (averageMarks < 100 && averageMarks >= 85 )
+//		{
+//			System.out.println("Excellent");
+//		}
+//		else if (averageMarks < 84 && averageMarks >= 75 )
+//		{
+//			System.out.println("Distinction");
+//		}
+//		else if (averageMarks < 74 && averageMarks >= 60 )
+//		{
+//			System.out.println("First class");
+//		}
+//		else if (averageMarks < 59 && averageMarks >= 40 )
+//		{
+//			System.out.println("Pass");
+//		}
+//		else
+//		{
+//			System.out.println("Poor");
+//		}
+		
+//		10. Java program to find duplicate element in the array.
+//		int a[] = {10, 20, 30, 40, 10};
+//		for (int i=0; i<a.length;i++)
+//		{
+//			for (int j = i+1; j< a.length; j++)
+//			if(a[i] == a[j])
+//			{
+//				System.out.println("Duplicate: "+a[i]);
+//			}
+//		}
+		
+//		11. Sum of one digit numbers and sum of two digit numbers
+//		int a[] = {1, 2, 3, 4, 5, 10, 20, 30, 40, 50};
+//		int sumOfOne = 0;
+//		int sumOfTwo = 0;
+//		for (int i=0; i<a.length; i++)
+//		{
+//			if(a[i] < 10 )
+//			{
+//					sumOfOne = sumOfOne + a[i];
+//			}
+//			else if(a[i] < 100 )
+//			{
+//					sumOfTwo = sumOfTwo + a[i];
+//			}
+//		}
+//		System.out.println("Sum of one Digits: "+sumOfOne);
+//		System.out.println("Sum of two Digits: "+sumOfTwo);
+		
+		
+		
+	}
+}
